@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var nome = (window.prompt('Qual é o seu nome?'))
+        window.alert(`A descrição do seu nome em maiúsculo é ${nome.toUpperCase()}`)
+    var n1 =Number (window.prompt('Digite um número: '))
+    var n2 =Number (window.prompt('Digite outro número: '))
+    var soma = n1 - n2
+    window.alert(`A subtração dos valores ${n1} e ${n2} é igual a ${soma}`)
+    var sal =Number (window.prompt('Qual é a sua média salarial?'))
+    var por = 13
+    var ir = por * sal / 100
+    window.alert(`O seu Imposto de Renda será de ${ir.toLocaleString('pt-BR', {style: 'currency', currency:`BRL`})}`)
+    </script>
+    
+</body>
+</html>
